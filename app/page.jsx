@@ -256,7 +256,7 @@ function BirdCard({ bird }) {
                 <div className="flex justify-between items-center pt-4 border-t border-gray-100">
                     <p className="text-2xl font-extrabold text-green-600">{formatPrice(bird.price)}</p>
                     <a
-                        href={`https://wa.me/${bird.whatsapp.replace(/[^0-9]/g, "")}`} // Clean number
+                        href={`https://wa.me/${92}${bird.whatsapp.replace(/[^0-9]/g, "")}`} // Clean number
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}

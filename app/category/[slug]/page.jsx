@@ -226,7 +226,7 @@ export default function CategoryPage() {
                                             {formatPrice(bird.price)}
                                         </p>
                                         <a
-                                            href={`https://wa.me/${bird.whatsapp}`}
+                                            href={`https://wa.me/${92}${bird.whatsapp}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             onClick={(e) => e.stopPropagation()}
